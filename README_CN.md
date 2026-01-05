@@ -95,20 +95,19 @@ searcherV6.free(); // 使用完毕后清理内存
 
 | | name | totalTime(ms) | avgTime(ms) | count | outputFile |
 |---|---|---|---|---|---|
-| 0 | Rust WASM IPv4 | 1.41 | 0.0003 | 5485 | output/rust_wasm_ipv4.txt |
-| 1 | Rust WASM IPv6 | 0.50 | 0.0002 | 2010 | output/rust_wasm_ipv6.txt |
+| 0 | Rust WASM IPv4 | 1.41 | 0.0003 | 5485 | tests/output/rust_wasm_ipv4.txt |
+| 1 | Rust WASM IPv6 | 0.50 | 0.0002 | 2010 | tests/output/rust_wasm_ipv6.txt |
 
 ### JS 性能测试汇总
 
 | | name | totalTime | avgTime | count | outputFile |
 |---|---|---|---|---|---|
-| 0 | Rust WASM IPv4 | 8.73 | 0.0016 | 5485 | output/rust_wasm_ipv4.txt |
-| 1 | Rust WASM IPv6 | 1.93 | 0.001 | 2010 | output/rust_wasm_ipv6.txt |
-| 2 | czdb (MEMORY) IPv4 | 23.42 | 0.0043 | 5485 | output/czdb_memory_ipv4.txt |
-| 3 | czdb (BTREE) IPv4 | 55.02 | 0.01 | 5485 | output/czdb_btree_ipv4.txt |
-| 4 | czdb (MEMORY) IPv6 | 13.26 | 0.0066 | 2010 | output/czdb_memory_ipv6.txt |
-| 5 | czdb (BTREE) IPv6 | 34.4 | 0.0171 | 2010 | output/czdb_btree_ipv6.txt |
-
+| 0 | Rust WASM IPv4 | 8.73 | 0.0016 | 5485 | tests/output/js_wasm_ipv4.txt |
+| 1 | Rust WASM IPv6 | 1.93 | 0.001 | 2010 | tests/output/js_wasm_ipv6.txt |
+| 2 | czdb (MEMORY) IPv4 | 23.42 | 0.0043 | 5485 | tests/output/czdb-node_memory_ipv4.txt |
+| 3 | czdb (BTREE) IPv4 | 55.02 | 0.01 | 5485 | tests/output/czdb-node_btree_ipv4.txt |
+| 4 | czdb (MEMORY) IPv6 | 13.26 | 0.0066 | 2010 | tests/output/czdb-node_memory_ipv6.txt |
+| 5 | czdb (BTREE) IPv6 | 34.4 | 0.0171 | 2010 | tests/output/czdb-node_btree_ipv6.txt |
 ## 免责声明
 
 在正式使用前，请您知晓如下注意事项:
