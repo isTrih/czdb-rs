@@ -1,0 +1,10 @@
+czdb/
+pkg/
+.DS_Store
+target/
+*.log
+*.tmp
+.idea/
+.vscode/
+*.swp
+czdb-search-c-main/
