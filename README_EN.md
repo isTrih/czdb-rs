@@ -55,9 +55,12 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-czdb-rs = "0.1.0"
+czdb-rs = "0.1.1"
 ```
-
+or
+```bash
+cargo add czdb-rs
+```
 ### Node.js (WASM)
 
 ```bash

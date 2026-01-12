@@ -57,7 +57,12 @@
 
 ```toml
 [dependencies]
-czdb-rs = "0.1.0"
+czdb-rs = "0.1.1"
+```
+或者
+
+```bash
+cargo add czdb-rs
 ```
 
 ### Node.js (WASM)
