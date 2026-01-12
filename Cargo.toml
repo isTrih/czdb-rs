@@ -1,9 +1,9 @@
 [package]
 name = "czdb-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["HUA Haohui"]
-description = "A high-performance Rust implementation of CZDB searcher with WASM support."
+description = "一个高性能的纯真IP社区版的 Rust 实现，并且支持 NodeJs(Bun) 的WASM调用库。|A high-performance Rust implementation of CZDB searcher with WASM support."
 license = "Apache-2.0"
 repository = "https://github.com/isTrih/czdb-rs"
 readme = "README.md"
